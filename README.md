@@ -136,29 +136,6 @@ O sistema é totalmente responsivo e funciona perfeitamente em:
 - 📱 Tablet (768px - 1199px)
 - 📱 Mobile (até 767px)
 
-## 🚀 Deploy
-
-Para fazer deploy da aplicação:
-
-1. **Configure as variáveis de ambiente** no seu provedor de hospedagem
-2. **Instale as dependências** no servidor
-3. **Configure o MongoDB** (local ou Atlas)
-4. **Inicie a aplicação** com `node server.js`
-
-### Provedores recomendados:
-- Heroku
-- Vercel
-- Railway
-- DigitalOcean
-
-## 🤝 Contribuição
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
 
 
 ⭐ **Se este projeto foi útil para você, considere dar uma estrela no repositório!**
