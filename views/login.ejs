@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/public/style.css">
+  <title>Sistema de Login - Entrar</title>
+</head>
+
+<body>
+  <div class="container">
+    <h2>Bem-vindo de volta!</h2>
+    <p style="color: #666; margin-bottom: 30px;">Faça login para acessar sua conta</p>
+    
+    <form method="POST" action="/login">
+      <input type="text" name="username" placeholder="Nome de usuário" required>
+      <input type="password" name="password" placeholder="Senha" required>
+      <button type="submit">Entrar</button>
+    </form>
+    
+    <div style="margin-top: 20px; font-size: 14px; color: #666;">
+      <p>Usuário padrão: <strong>admin</strong></p>
+      <p>Senha padrão: <strong>123456</strong></p>
+    </div>
+  </div>
+</body>
+
+</html>
+

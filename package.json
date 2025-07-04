@@ -1,0 +1,42 @@
+{
+  "name": "sistema-login-nodejs",
+  "version": "1.0.0",
+  "description": "Sistema de autenticação completo com Node.js, Express, MongoDB e EJS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "create-admin": "node createAdmin.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "authentication",
+    "login",
+    "ejs",
+    "bcrypt",
+    "session"
+  ],
+  "authors": [
+    "Danilo Augusto Martins Frazon",
+    "João Vitor Furquim de Brito",
+    "Pedro Henrique Silva Melo"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.5.0",
+    "bcrypt": "^5.1.1",
+    "ejs": "^3.1.9",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
+
